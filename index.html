@@ -21,11 +21,19 @@
            background-size: 100%;
             background-repeat: no-repeat;
         }
+        footer{
+       margin: 50px;
+       height: 300px;
+       display: grid;
+       grid-template-columns: 5fr 7fr;
+       background-color: rgb(9, 6, 18);
+       }
        }
        @media screen and (orientation:portrait){
        .landscape{
         display: none;
        }
+     
        }
     </style>
 </head>
@@ -78,6 +86,23 @@
            </div>
         </div>
      </main>
+     <footer>
+       <div class="d-flex flex-column justify-content-evenly align-items-center">
+        <h3 class="text-white" style="text-decoration-line: underline;">Social Media</h3>
+         <ol class="list-unstyled" >
+           <a href="tel:63039353" class="text-decoration-none"><li class="bi bi-instagram"> Instagram </li></a>
+           <a href="" class="text-decoration-none"><li class="bi bi-twitter mt-3" > Twitter </li></a>
+           <a href="" class="text-decoration-none"><li class="bi bi-facebook mt-3"> Facebook </li></a>
+         </ol>
+       </div>
+       <div class="d-flex flex-column justify-content-evenly align-items-center">
+        <h3 class="text-white" style="text-decoration-line: underline;">Contact Me</h3>
+        <ol class="list-unstyled" >
+          <a href="https://wa.me/+916303935398" class="text-decoration-none"><li class="bi bi-whatsapp"> +91-6303935398 </li></a>
+          <a href="mailto:maheshitukala@gmail.com" class="text-decoration-none"><li class="bi bi-mailbox mt-3" > maheshitukala@gmail.com </li></a>
+        </ol>
+       </div>
+     </footer>
    </div>
 </body>
 </html>
